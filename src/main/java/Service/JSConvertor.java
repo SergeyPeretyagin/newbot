@@ -35,7 +35,7 @@ public class JSConvertor {
                     System.out.println(listUser);
                 }
                 Collections.sort(listUser);
-                PDFConverter.groupUsers(listUser);
+//                PDFConverter.groupUsers(listUser);
             } catch (Exception e) {
                 e.printStackTrace();
             }

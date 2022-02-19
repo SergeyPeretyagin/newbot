@@ -63,10 +63,10 @@ public class PDFConverter {
         return file;
     }
 
-//    public static void groupUsers(List<User> users){
-//        for (User el:
-//                users) {
-//            usersMap.computeIfAbsent(el.getUser_name(),k->new ArrayList<String>()).add(el.getSpend_time()+"&%@"+el.getActivities());
-//        }
-//    }
+    public static void groupUsers(List<User> users){
+        for (User el:
+                users) {
+            usersMap.computeIfAbsent(el.getUser_name(),k->new ArrayList<String>()).add(el.getSpend_time()+"&%@"+el.getActivities());
+        }
+    }
 }

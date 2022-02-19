@@ -1,0 +1,19 @@
+{
+  "Players_data": [
+    {
+      "user_name": "Sazhin",
+      "spend_time": 10.0,
+      "activities": "test2"
+    },
+    {
+      "user_name": "-12",
+      "spend_time": -12.0,
+      "activities": "-12"
+    },
+    {
+      "user_name": "Hanna Zanko",
+      "spend_time": 5.0,
+      "activities": "pattern"
+    }
+  ]
+}

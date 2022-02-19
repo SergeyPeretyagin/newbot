@@ -23,11 +23,11 @@ public class PDFConverter {
     static Map<String,List<String>> usersMap=new HashMap<>();
 
     public static File createPDF() {
-        File file = new File("/opt/tomcat/apache-tomcat-9.0.58/webapps/telebot/WEB-INF/source/newPDF.pdf");
+        File file = new File("/opt/tomcat/apache-tomcat-9.0.58/webapps/botexample/WEB-INF/source/newPDF.pdf");
 //        File file = new File("newPDF.pdf");
         try {
             List<User> users = JSConvertor.parse();
-            PdfWriter pdfWriter = new PdfWriter("/opt/tomcat/apache-tomcat-9.0.58/webapps/telebot/WEB-INF/source/newPDF.pdf");
+            PdfWriter pdfWriter = new PdfWriter("/opt/tomcat/apache-tomcat-9.0.58/webapps/botexample/WEB-INF/source/newPDF.pdf");
             float[] columnWidth = {200F, 100F, 200F};
             PdfDocument pdfDocument = new PdfDocument(pdfWriter);
             pdfDocument.addNewPage();

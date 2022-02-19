@@ -93,7 +93,7 @@ public class Bot extends TelegramLongPollingBot{
             execute(SendMessage.builder().chatId(chatId).text("Сейчас получишь").build());
 //            File file = PDFConverter.createPDF();
 //            File file = new File("D:\\Example\\newPostgresDemo\\userManagementApplication\\TeLe\\newPDF.pdf");
-            File file = new File("/opt/tomcat/apache-tomcat-9.0.58/webapps/telebot/WEB-INF/source/newPDF.pdf");
+            File file = new File("/opt/tomcat/apache-tomcat-9.0.58/webapps/botexample/WEB-INF/source/newPDF.pdf");
 //            InputFile inputFile = new InputFile(file);
 //            execute(SendDocument.builder().chatId(chatId).document(inputFile).build());
             if (file.isFile())
